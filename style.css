@@ -1,0 +1,87 @@
+body{
+    background-position: center, center; 
+    background-repeat: no-repeat, no-repeat;
+    background-attachment: fixed, scroll;
+    background-image: url("./image/zombie.jpg");
+    background-size: 100%;
+}
+
+.newbrandbox{
+    max-width: 16000px;
+    max-height: 9000em;
+    width: 90%;
+    column-count: 3;
+    column-width: 110px;
+    column-gap: 80px;
+    column-rule: 5px #0000ff63 dashed;
+    background: blue;
+    border-radius: 40px;
+    margin: auto;
+    opacity: inherit;
+}
+
+
+header h1{
+    text-align: center;
+    text-shadow: 10px 15px rgba(96, 244, 96, 0.61);
+}
+#newbox4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 77%;
+}
+    
+#newbox5{
+    width: 80%;
+    margin: 182%;
+}
+
+#newbox6{
+    width: 40%;
+    margin: 80%;
+}
+article{
+    text-align: center;
+    background: #990099;
+}
+
+ul{
+    background: #565656;
+    list-style-type: square; 
+    width: 100%;
+    padding:0em;
+    margin: 0em;
+}
+
+#top-menu li{
+     display: inline;
+ }
+ #top-menu a{
+     display: inline-block;
+     color: bisque;
+    text-decoration: none;
+    font-size: 1.4em;
+    padding: 20px 50px;
+
+ }
+
+ #top-menu a:hover{
+     background-color: #ff1122;
+     color: azure;
+ }
+
+.clearfix::after{
+    content:"";
+    clear: both;
+    display:table;
+}
+a:link{
+color: #565656;
+} 
+
+a:visited{
+    color: #338899;
+}
+a:active{
+        color: #990099;
+}
+   
